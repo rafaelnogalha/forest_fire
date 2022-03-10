@@ -20,6 +20,8 @@ Then open your browser to [http://127.0.0.1:8521/](http://127.0.0.1:8521/) and p
 
 To view and run the model analyses, use the ``Forest Fire Model`` Notebook.
 
+To view the CSVs, just open the folder 'results' and then you are able to see the code.
+
 ## Files
 
 ### ``forest_fire/model.py``
