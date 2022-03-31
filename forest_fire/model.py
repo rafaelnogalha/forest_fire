@@ -114,8 +114,8 @@ def batchRun():
     """
     ni = 2
     stepsPerSimulation = 2
-    airH = 0.95
-    windF = 0.1
+    airH = 0.1
+    windF = 0.25
     fixedParams = {
         "height": 100,
         "width": 100,
@@ -143,7 +143,7 @@ def batchRun():
     br.run_all()
     runModelData = br.get_model_vars_dataframe()
     runAgentData = br.get_agent_vars_dataframe()
-    file_name_suffix = "fire_model_data" + str(airH)
+    file_name_suffix = "fire_model_data" + str(airH) + "_" + str(windF)
     runModelData.to_csv("results/model_data" + file_name_suffix + ".csv")
     runAgentData.to_csv("results/agent_data" + file_name_suffix + ".csv")
 
