@@ -6,7 +6,7 @@ The [forest fire model](http://en.wikipedia.org/wiki/Forest-fire_model) is a sim
 
 ## What I changed on the original code?
 
-i added an agent called air humidity and now the trees can be 'Wet', so, if the the is 'Wet' it can't be in fire and throught that the forest is able to stop to be in fire!
+i added an agent called air humidity and now the trees can be 'Wet', so, if the the is 'Wet' it can't be in fire and throught that the forest is able to stop to be in fire! And i added the wind force, if is high, the fire is stronger and faster and if the soil is accid it turns on a bad situation for the forest.
 
 ## How to Run
 
@@ -21,6 +21,10 @@ Then open your browser to [http://127.0.0.1:8521/](http://127.0.0.1:8521/) and p
 To view and run the model analyses, use the ``Forest Fire Model`` Notebook.
 
 To view the CSVs, just open the folder 'results' and then you are able to see the code.
+
+## Results
+
+The simulation results are in the /results directory
 
 ## Files
 
