@@ -6,7 +6,7 @@ The [forest fire model](http://en.wikipedia.org/wiki/Forest-fire_model) is a sim
 
 ## What I changed on the original code?
 
-i added an agent called fireman and now the trees can be 'Wet', so, if the the is 'Wet' it can't be in fire and throught that the forest is able to stop to be in fire!
+i added an agent called air humidity and now the trees can be 'Wet', so, if the the is 'Wet' it can't be in fire and throught that the forest is able to stop to be in fire!
 
 ## How to Run
 
